@@ -7,6 +7,7 @@ import Fade from "react-reveal/Fade";
 import CarouselShoes from "./CarouselShoes";
 import PopulerProduct from "./PopulerProduct";
 import HomeShoesDetails from "./HomeShoesDetails";
+import Footer from "./Footer";
 
 function HomePage() {
   return (
@@ -23,6 +24,7 @@ function HomePage() {
       </div>
       <PopulerProduct />
       <HomeShoesDetails />
+      <Footer />
     </>
   );
 }

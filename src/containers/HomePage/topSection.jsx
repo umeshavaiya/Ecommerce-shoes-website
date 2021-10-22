@@ -73,6 +73,7 @@ const SloganText = styled.div`
   color: #fff;
   font-weight: 800;
   font-size: 55px;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
 
   @media screen and (max-width: ${deviceSize.mobile}px) {
     font-size: 24px;

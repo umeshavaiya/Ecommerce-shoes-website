@@ -2,6 +2,8 @@ import React from 'react'
 import './PopulerProduct.css'
 import { Card, Typography } from 'antd';
 import 'antd/dist/antd.css'
+import Reveal from 'react-reveal/Reveal';
+
 
 const { Meta } = Card;
 const { Title } = Typography;
@@ -10,7 +12,9 @@ function PopulerProduct() {
     return (
         <div className='populerProduct'>
             <div className="populerProduct__text">
-                <p>OUR  POPULER  PRODUCTS</p>
+                <Reveal big>
+                    <p>OUR  POPULER  PRODUCTS</p>
+                </Reveal>
             </div>
             <div className="populerProduct__card ">
                 <Card
@@ -30,7 +34,7 @@ function PopulerProduct() {
                     <span className="fa fa-star checked" style={{ fontSize: '20px', marginRight: '7px' }}></span>
                     <span className="fa fa-star checked" style={{ fontSize: '20px', marginRight: '7px' }}></span>
 
-                    <button className="button1"><span className="button__text">Buy Now</span></button>
+                    <button className="button1">Buy Now</button>
                 </Card>
                 <Card
                     className="card__Antd"
